@@ -80,7 +80,7 @@ public class ChessMatch {
     }
 
     private void nextTurn() {
-        turn++;
+        if (currentPlayer == Color.BLACK) turn++;
         currentPlayer = (currentPlayer == Color.WHITE) ? Color.BLACK : Color.WHITE;
     }
 
