@@ -139,7 +139,7 @@ public class ChessMatch {
                 return (ChessPiece) p;
             }
         }
-        throw new IllegalStateException("Thre is no " + color + " king on the board");
+        throw new IllegalStateException("There is no " + color + " king on the board");
     }
 
     private boolean testCheck (Color color) {
